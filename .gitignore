@@ -1,0 +1,43 @@
+target/
+out/
+
+# Intellij specific
+.idea/
+*.iml
+
+# Vscode
+.vscode/
+
+# Metals
+.bloop/
+.metals/
+project/metals.sbt
+
+# Scala
+*.class
+.bsp/
+
+# macos
+.DS_Store
+
+# sbt specific
+.cache
+.history
+.lib/
+project/boot/
+project/plugins/project/
+project/local-plugins.sbt
+project/target/
+project/project/
+*/project
+dist/*
+lib_managed/
+src_managed/
+.ensime
+.ensime_cache/
+.sbt-scripted/
+local.sbt
+
+# draw.io
+*.bkp
+*.dtmp
